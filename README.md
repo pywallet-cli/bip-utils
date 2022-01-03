@@ -39,6 +39,9 @@ Package dependencies:
 
 Please note that, for the py-sr25519-bindings library, Rust is required to be installed.
 
+## Install
+    sudo ./install
+
 ## Supported coins
 
 Supported BIP coins:
@@ -118,36 +121,12 @@ To install the package:
 - Default installation (*coincurve* will be used for secp256k1)
     - Using *setuptools*:
 
-            python setup.py install
-
-    - Using *pip*, from this directory (local):
-
-            pip install .
-
-    - Using *pip*, from PyPI:
-
-            pip install bip_utils
+            ./install
 
 - Alternative installation (*ecdsa* will be used for secp256k1)
     - Using *setuptools*:
 
-            python setup.py install --coincurve=0
-
-    - Using *pip*, from this directory (local):
-
-            pip install . --install-option="--coincurve=0"
-
-    - Using *pip*, from PyPI:
-
-            pip install bip_utils --install-option="--coincurve=0"
-
-To run tests:
-
-    python -m unittest discover
-
-Or you can install *tox*:
-
-    pip install tox
+            ./install --coincurve=0
 
 And then:
 - Run tests using *pytest* (it includes code coverage and report):
