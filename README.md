@@ -6,6 +6,10 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/ebellocchia/bip_utils/badge)](https://www.codefactor.io/repository/github/ebellocchia/bip_utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/ebellocchia/bip_utils/master/LICENSE)
 
+
+## Install
+    sudo ./install
+
 ## Introduction
 
 This package allows generating mnemonics, seeds, private/public keys and addresses for different types of cryptocurrencies. In particular:
@@ -38,9 +42,6 @@ Package dependencies:
 - [scalecodec](https://pypi.org/project/scalecodec/) for SCALE encoding
 
 Please note that, for the py-sr25519-bindings library, Rust is required to be installed.
-
-## Install
-    sudo ./install
 
 ## Supported coins
 
