@@ -1951,13 +1951,11 @@ Some examples from mnemonic generation to wallet addresses.
         for subaddr_idx in range(5):
             print(f"Subaddress (account: {acc_idx}, index: {subaddr_idx}): {monero.Subaddress(subaddr_idx, acc_idx)}")
 
-# Buy me a coffee
+## Donation ##
+If you find this program helpful, please consider a donation:
 
-You know, I'm italian and I love drinking coffee (especially while coding :D). So, if you'd like to buy me one:
-- BTC: bc1qq4r9cglwzd6f2hzxvdkucmdejvr9h8me5hy0k8
-- ERC20/BEP20: 0xf84e4898E5E10bf1fBe9ffA3EEC845e82e364b5B
+BTC: bc1qqtspvvyl5nv2dwffd0zwppledlmct7sydpd9l5
 
-Thank you very much for your support.
 
 # License
 
